@@ -24,6 +24,17 @@ planar, low-loss curve between networks that successfully generalizes. Our align
 the recently identified robust loss barrier on the path connecting two adversarial robust models and find more robust 
 and accurate models on the path.*
 
+If you find this code helpful in your research, please consider citing our work:
+
+> @article{tatro2020optimizing,
+  title={Optimizing Mode Connectivity via Neuron Alignment},
+  author={Tatro, Norman and Chen, Pin-Yu and Das, Payel and Melnyk, Igor and Sattigeri, Prasanna and Lai, Rongjie},
+  journal={Advances in Neural Information Processing Systems},
+  volume={33},
+  year={2020}
+}
+
+
 ## Requirements
 
 To use this repo, the requirements can be found in *[requirements.txt](requirements.txt)*.

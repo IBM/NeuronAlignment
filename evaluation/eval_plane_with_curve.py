@@ -4,10 +4,10 @@ import sys
 import numpy as np
 import torch
 import copy
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 import models
 from utils import utils, data, alignment
 import definitions
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 
 parser = argparse.ArgumentParser(description='Evaluates the plane containing the quadratic Bezier curve between two '

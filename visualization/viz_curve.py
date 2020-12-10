@@ -4,8 +4,8 @@ import argparse
 import numpy as np
 import matplotlib.pyplot as plt
 from nfft import ndft
-import definitions
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+import definitions
 
 
 parser = argparse.ArgumentParser(description='Displays results from evaluating the learned curve between models.')

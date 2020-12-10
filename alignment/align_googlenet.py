@@ -3,11 +3,11 @@ import sys
 import argparse
 import torch
 import numpy as np
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 import models
 import utils
 from utils import alignment, data, attack
 import definitions
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 
 parser = argparse.ArgumentParser(description='Aligns two GoogLeNets using cross-correlation of activations.')

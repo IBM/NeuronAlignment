@@ -3,10 +3,10 @@ import os
 import sys
 import numpy as np
 import torch
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 import models
 from utils import utils, data, alignment
 import definitions
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 
 parser = argparse.ArgumentParser(description='Evaluates the plane containing three loss optima. The third optima '

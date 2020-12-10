@@ -3,10 +3,10 @@ import sys
 import argparse
 import torch
 import numpy as np
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 import models
 from utils import alignment, data
 import definitions
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 
 parser = argparse.ArgumentParser(description='Aligns two networks using cross-correlation of activations.')

@@ -5,8 +5,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 from nfft import nfft_adjoint, ndft
 from matplotlib.ticker import StrMethodFormatter
-import definitions
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+import definitions
 
 
 parser = argparse.ArgumentParser(description='Displays the test accuracy of the adversarial curve between two models.')

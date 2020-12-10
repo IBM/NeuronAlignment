@@ -6,11 +6,11 @@ import numpy as np
 import torch
 import torch.nn as nn
 import torch.optim as optim
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from models import curves
 from utils import utils, alignment, data
 import models
 import definitions
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 
 parser = argparse.ArgumentParser(description='Trains a curve between two neural networks.')

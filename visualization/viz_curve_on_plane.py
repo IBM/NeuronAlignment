@@ -3,8 +3,8 @@ import os
 import argparse
 import matplotlib.pyplot as plt
 import numpy as np
-import definitions
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+import definitions
 
 
 parser = argparse.ArgumentParser(description='Displays the learned curve on the plane.')

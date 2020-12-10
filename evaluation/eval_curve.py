@@ -5,10 +5,10 @@ import time
 import numpy as np
 import torch
 import torch.nn as nn
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from utils import utils, alignment, data
 import models
 import definitions
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 
 parser = argparse.ArgumentParser(description='Evaluates a curve between two neural networks.')
